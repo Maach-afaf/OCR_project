@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ocr.card.ui.ResultController">
+   <children>
+      <Label layoutX="212.0" layoutY="101.0" prefHeight="48.0" prefWidth="87.0" text="Last Name" />
+      <TextField fx:id="txtlastname" layoutX="300.0" layoutY="112.0" />
+      <TextField fx:id="txtfirstname" layoutX="300.0" layoutY="160.0" />
+      <TextField fx:id="txtcardnumber" layoutX="300.0" layoutY="210.0" />
+      <Label layoutX="212.0" layoutY="149.0" prefHeight="48.0" prefWidth="87.0" text="First Name" />
+      <Label layoutX="203.0" layoutY="199.0" prefHeight="48.0" prefWidth="87.0" text="Card Number" />
+   </children>
+</AnchorPane>
